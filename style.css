@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+html {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F7F5F5;
+    color: #1D1D1D;
+}
+a {
+    text-decoration: none;
+}
+ul li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+hr {
+    width: 90%;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    height: 1px;
+    color: #E5E5E5;
+    background-color: #E5E5E5;
+    border: none;
+}
+.maincard {
+    background-color: #fff;
+    width: 450px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding-bottom: 20px;
+}
+h3 {
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+    display: block;
+    margin: 10px;
+}
+input[type=text] {
+    display: flex;
+    width: 85%;
+    margin: auto;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: inset 1px 1px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Poppins', sans-serif;
+}
+input::placeholder {
+    color: #9A9A9A;
+}
+textarea {
+    display: flex;
+    width: 85%;
+    margin: auto;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: inset 1px 1px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Poppins', sans-serif;
+    margin-top: -10px;
+    resize: none;
+}
+textarea::placeholder {
+    color: #9A9A9A;
+}
+textarea:hover {
+    box-shadow: inset 1px 1px 10px rgba(0, 0, 0, 0.2)
+}
+textarea:focus-visible  {
+    outline: none;
+    box-shadow: inset 1px 1px 14px rgba(0, 0, 0, 0.3);
+}
+input[type=submit]{
+    align-items: center;
+    width: 90%;
+    margin: 20px;
+    background: #2F66DB;
+    color: #fff;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: -10px;
+    cursor: pointer;
+}
+input[type=submit]:hover{
+    background-color: #4e7de4;
+}
+input[type=search] {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: inset 1px 1px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Poppins', sans-serif;
+}
+input:hover {
+    box-shadow: inset 1px 1px 10px rgba(0, 0, 0, 0.2);
+}
+input:focus-visible  {
+    outline: none;
+    box-shadow: inset 1px 1px 14px rgba(0, 0, 0, 0.3);
+}
+.task-list {
+    margin: 0;
+    padding: 0;
+}
+.task-item {
+    display: grid;
+    background: #EBF7F8;
+    border-radius: 10px;
+    width: 90%;
+    margin: auto;
+    margin-top: 15px;
+    grid-template-columns: 20% 80%;
+}
+.task-item:nth-child(odd){
+    background-color: #FDE6DE;
+}
+.task-item h6 {
+    font-size: 15px;
+    font-weight: 400;
+    padding: 10px ;
+    margin: 0;
+    color: #1D1D1D;
+}
+.task-item p {
+    font-size: 15px;
+    font-weight: 300;
+    padding: 10px;
+    margin: 0;
+    color: #1D1D1D;
+}
+.task-item .remove {
+    border: none;
+    background-color: #fff;
+    padding: 5px 15px;
+    border-radius: 10px;
+    color: #F40C0C;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.task-item .remove:hover {
+    background-color: #F40C0C;
+    color: #fff;
+}
+.task-item .edit {
+    border: none;
+    background-color: #fff;
+    padding: 5px 15px;
+    border-radius: 10px;
+    color: #a19f9f;
+    margin-bottom: 15px;
+}
+.clear {
+    align-items: center;
+    width: 90%;
+    margin: 20px;
+    background: #F40C0C;
+    color: #fff;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.clear:hover {
+    background: #fa3636;
+}
+footer {
+    text-align: center;
+    color: #9A9A9A;
+    text-transform: capitalize;
+    font-weight: 300;
+    padding: 20px;
+    font-size: 12px;
+}
+footer a {
+    color: #9A9A9A; 
+}
+footer a:hover {
+    color: #727272; 
+}
